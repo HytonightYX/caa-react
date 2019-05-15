@@ -4,7 +4,6 @@ import '../../Home.css'
 import p1 from '../../images/cc206e6c279fd91d226ea4fb1d5ed83d.jpg'
 import p2 from '../../images/cc206e6c279fd91d226ea4fb1d5ed83d.jpg'
 import p3 from '../../images/3429dc3c41fd90d68f93765f693776c3.jpg'
-import p4 from '../../images/0783653592711601912799f691f738a2.jpg'
 
 export default class BoxRow1 extends React.Component {
 

@@ -685,7 +685,11 @@ p {
   float: left;
   line-height: 60px;
   padding: 0 3px 0 0;
-  background: url(/img/dot_3px.png) no-repeat right center;
+  background: url(./images/dot_3px.png) no-repeat right center;
+}
+
+.main-nav li:last-child {
+  background-image: none;
 }
 
 .main-nav li a {
@@ -697,6 +701,8 @@ p {
   position: relative;
   z-index: 102;
 }
+
+
 
 .main-nav li a.current {
   background: #fff;
@@ -1886,6 +1892,7 @@ p {
   background: url(/img/icon_tel.png) no-repeat 0 center;
 }
 
+
 .contact-tel ul li.tit {
   border-bottom: 1px solid #d2d2d2;
   color: #888;
@@ -2296,7 +2303,7 @@ p {
 
 .friend-link .dot {
   padding: 17px 20px;
-  background: url(/img/dot_3px.png) no-repeat center center;
+  background: url(./images/dot_3px.png) no-repeat center center;
 }
 
 .logo-link {
